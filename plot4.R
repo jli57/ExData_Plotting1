@@ -1,5 +1,8 @@
 ## plot4.R
 
+## use load.R to prepare the dataset for plotting 
+## if(!exists("load.R", mode="function")) source("load.R")
+
 ## write to png
 png(filename = "plot4.png", width=480, height=480, bg = "transparent")
 
